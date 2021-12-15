@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div id="contents">
+    <h1>Online youtube video downloader</h1>
+    <form action="{{url_for('take_link')}}" method="post">
+      <div class="input-group input-group-lg contents-input">
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="copy your video link here!" name="link">
+      </div>
+      <button class="btn btn-danger btn-lg" type="submit">Download video</button>
+    </form>
+</div>
+{% endblock %}

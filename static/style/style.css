@@ -1,0 +1,29 @@
+#contents, #footer{
+    text-align: center;
+}
+
+
+#footer{
+    padding: 20px;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#contents, #download{
+    padding: 12% 50px;
+}
+
+.contents-input{
+    padding: 20px;
+}
+
+#download{
+    text-align: center;
+}
+
+.btn-download{
+    margin-bottom: 10px;
+}
